@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <style>
+        /* Internal CSS */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #cccccc;
+            margin-bottom: 30px;
+        }
+
+        /* Button styling */
+        .back-btn {
+            padding: 12px 25px;
+            font-size: 1em;
+            color: #1a1a1a;
+            background: #00bfff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .back-btn:hover {
+            background: #009acd;
+            color: #fff;
+        }
+
+        /* Pulsing animation for the icon */
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.8; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Warning icon -->
+    <div class="icon">⚠️</div>
+    
+    <h1>We’ll Be Back Soon!</h1>
+    <p>This project is currently under maintenance.<br>Please check back later.</p>
+
+    <!-- Go Back button -->
+    <a href="http://localhost:8080/" class="back-btn">Go Back</a>
+</body>
+</html>
