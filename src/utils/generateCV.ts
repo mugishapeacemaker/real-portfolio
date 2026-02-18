@@ -96,6 +96,7 @@ export const generateCV = () => {
     { period: '2024 – 2027', school: 'Lycée de Nyanza', level: "Advanced  Level (Current)" },
     { period: '2020 – 2024', school: 'ES Rukozo', level: "OrdinaryLevel" },
     { period: '2014 – 2019', school: 'Nyamata High School', level: 'Primary School' },
+    { period: '2012 – 2014', school: 'Nyamata High School', level: 'Nursery' },
   ];
 
   education.forEach(edu => {

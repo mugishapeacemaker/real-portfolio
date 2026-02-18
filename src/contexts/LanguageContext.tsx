@@ -72,7 +72,7 @@ const translations: Record<Language, Translations> = {
       description: [
         'I am a passionate Full Stack Developer based in Bugesera, Nyamata, Rwanda. With a strong foundation in modern web technologies, I specialize in creating elegant, efficient, and user-friendly applications.',
         'My journey in software development has equipped me with expertise in both frontend and backend technologies. I believe in writing clean, maintainable code and continuously learning new technologies to stay ahead in this ever-evolving field.',
-        'When I\'m not coding, I enjoy exploring new technologies, contributing to open-source projects, and sharing knowledge with the developer community. I\'m always open to new opportunities and collaborations.',
+        'When I\'m coding, I enjoy exploring new technologies, contributing to open-source projects, and sharing knowledge with the developer community. I\'m always open to new opportunities and collaborations.',
       ],
       downloadCV: 'Download My CV',
     },
